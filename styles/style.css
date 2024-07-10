@@ -14,7 +14,7 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
-    width: 1140px;
+    width: 1600px;
     margin: 0px auto;
 }
 .navbar .logo{
@@ -41,8 +41,8 @@ body{
 }
 .bannar-box{;
     margin: 0px auto;
-    margin-top: 30px;
-    width: 998px;
+    margin-top:30px;
+    width:998px;
     height: 582px;
     text-align: center;
 }
@@ -393,11 +393,21 @@ button, a{
     text-align: center;
     margin: 24px 144px 0px 144px;
 }
-.section-5 .fremwork-1, .fremwork-2, .fremwork-3{
+.section-5 .fremwork-1{
     width: 1140px;
     height: 220px;
     margin: 0px auto;
-    margin-top: 48px;
+    margin-top: 38px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.section-5 .fremwork-2, .fremwork-3{
+    width: 1140px;
+    height: 220px;
+    margin: 0px auto;
+    margin-top: 17px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
@@ -437,4 +447,67 @@ button, a{
     text-align: left;
     margin-left: -6px;
 }
- 
+ /* footer section start heare */
+ .footer{
+    width: 1140px;
+    height: 288px;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+    margin: 0px auto;
+    margin-top: 48px;
+    background-image: url('../assets/handshake.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+ }
+ .footer .fo-contain h1{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    width: 730px;
+    text-align: center;
+ }
+ .footer .fo-contain p{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px 62px 0px 62px;
+
+ }
+ .input-box .text{
+    width: 548px;
+    height: 58px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-top: 24px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 20px;
+    outline: none;
+ }
+ .input-box .button{
+    width: 120px;
+    height: 58px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    cursor: pointer;
+ }
