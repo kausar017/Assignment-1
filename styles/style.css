@@ -535,4 +535,5 @@ button, a{
  .contract .icon-box i{
     margin: 24px;
     font-size: 30px;
+    cursor: pointer;
  }
