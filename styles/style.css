@@ -14,6 +14,8 @@ body{
 .navbar{
     display: flex;
     justify-content: space-between;
+    width: 1140px;
+    margin: 0px auto;
 }
 .navbar .logo{
     margin: 50px 0px 0px 150px;
@@ -278,6 +280,21 @@ body{
     width: 1076px;
     height: 518px;
 }
+
+/* ancor tag button style  */
+button, a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    border: none;
+    outline: none;
+    background-color: #fff ;
+    }
+/* ancor tag button style  */
+
 /* section-4 start heare */
 .section-4{
     width: 1140px;
@@ -348,23 +365,12 @@ body{
     font-weight: 400;
     line-height: 26px;
     margin-top: 8px;
-}
-.section-4 .card-box button { 
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 700;
     text-align: left;
-    text-decoration-line: underline;
-    border: none;
-    margin-top: 24px;
-    color: ;
 }
-
 /* section-5 start heare  */
 .section-5{
     width: 1140px;
     height: 871px;
-    border: 1px solid red;
     margin: 0px auto;
     margin-top: 111px;
 }
@@ -387,7 +393,7 @@ body{
     text-align: center;
     margin: 24px 144px 0px 144px;
 }
-.section-5 .fremwork-1{
+.section-5 .fremwork-1, .fremwork-2, .fremwork-3{
     width: 1140px;
     height: 220px;
     margin: 0px auto;
@@ -400,10 +406,12 @@ body{
 .ReactJS{
     width: 1060px;
     height: 140px;
-    border: 1px solid red;
     margin: 0px auto;
     margin-top: 40px;
     display: flex;
+}
+.section-5 .h3-p{
+    margin-left: 25px;
 }
 .ReactJS img{
     width: 94.78px;
@@ -417,16 +425,16 @@ body{
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
-    line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
 }
-.ReactJS #js{
+.ReactJS .js{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: left;
+    margin-left: -6px;
 }
+ 
