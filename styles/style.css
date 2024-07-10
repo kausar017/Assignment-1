@@ -70,9 +70,10 @@ body{
     letter-spacing: 0%;
     text-align: center;
     margin: 15px 73px;
+    padding-bottom: 20px;
 }
-.bannar-section button{
-    margin-top: 20px;
+.bannar-section button a{
+    margin-top: 32px;
     padding: 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
@@ -84,6 +85,7 @@ body{
     letter-spacing: 0%;
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
 }
 /* section-1 start heare */
 .section-2{
